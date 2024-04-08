@@ -1,0 +1,49 @@
+body{
+    background-color: green;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container{
+    text-align: left;
+    font-family: cursive;
+    font-size: 50px;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    
+}
+.container p{
+    opacity: 0;
+  visibility: hidden;
+  transition: 0.4s all ease-out;
+}
+
+.container p.is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+#btn{
+    margin: 0px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background:transparent !important;
+    border: 1px solid white;
+    justify-self: right;
+    
+    
+}
+
+#output{
+    margin: 0px auto;
+    font-size: 26px;
+    color: rgb(204, 184, 184);
+    text-align: left;
+font-family: sans-serif;
+    font-size: 50px;
+    font-style:italic;
+     transition-delay: 5s;
+     -webkit-text-size-adjust: 100%;
+    font-weight: 100;
+}
